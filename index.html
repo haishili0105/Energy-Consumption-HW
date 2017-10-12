@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Customized JavaScript -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!-- Customized JavaScript -->
+    <script src="js/script.js"></script>
+
+
+	<div class="container">
+        <div class="hearder row">
+            <h1 class="heading-primary col-lg-7"> Your electricity savings</h1>
+            <div class="cust-nav col-lg-5"> 
+                <div class="tabbable"> <!-- Only required for left/right tabs -->
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tab1" onclick = "changeImage1()"><img id="navimage1" src="img/carFilledBlue@3x.png">cars</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab2" onclick = "changeImage2()"><img id="navimage2" src="img/treeInactive.png">trees</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab3" onclick = "changeImage3()"><img id="navimage3" src="img/carbonInactive.png">carbon</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr class = "divider">
+        
+        <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+                <div class="row">
+                    <div class="left col-lg-6 col-sm-12">
+                            <img class= "saved-car easing1" src="img/carOutlineGreen.png">
+                            <img class= "saved-car easing2" src="img/carOutlineGreen.png">
+                            <img class= "saved-car easing3" src="img/carOutlineGreen.png">
+                            <img class= "saved-car easing4" src="img/carOutlineGreen.png">
+                            <img class= "saved-car easing5" src="img/carOutlineGreen.png">
+                            <img class= "saved-car easing6" src="img/carOutlineGreen.png">
+                       <!--  <div class=""> -->
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                        <!-- </div> -->
+                        <!-- <div class=""> -->
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                        <!-- </div> -->
+                       <!--  <div class=""> -->
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                        <!-- </div> -->
+                        <!-- <div class=""> -->
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                        <!-- </div> -->
+                       <!--  <div class=""> -->
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                            <img class= "saved-car"src="img/carFilled@3x.png">
+                       <!--  </div> -->
+                    </div>
+                    <div class="right col-lg-6 col-sm-12">
+                        <img class="badge-icon wiggle" src="img/like@3x.png">
+                        <h1 class="heading-display-small">Last month, you saved enough energy to take <a class="highlightText">six cars</a> off the road!</h1>
+                        <p class="content">Great job! You used 573 kWH last month, compared to 791 kWh in the same month last year. The resulting savings is enough to off set the energy consumption of six average-size cars for one month.</p>
+
+                        <div class="last-year row">
+                            <a class="bar-chart-label">Oct. 2016</a>
+                            <div class="past progress">
+                                <div class="past progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a class="bar-chart-label">791kWH</a>
+                        </div>
+
+                        <div class="this-year row">
+                             <a class="bar-chart-label">Oct. 2017</a>
+                            <div class="current progress">
+                                <div class="current progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a class="bar-chart-label">573kWH</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="tab-pane" id="tab2">
+                <div class="underConstruction">
+                    <img class="constructionImg" src="img/construction.png"/>
+                    <p class="constructionText">Sorry, the page you are looking for is still under construction.<br>Please check back later.</p>
+                </div>
+            </div>
+
+            <div class="tab-pane" id="tab3">
+                <div class="underConstruction">
+                    <img class="constructionImg" src="img/construction.png"/>
+                    <p class="constructionText">Sorry, the page you are looking for is still under construction.<br>Please check back later.</p>
+                </div>
+        </div>
+    </div> 
+    </body>
+
+</html>
